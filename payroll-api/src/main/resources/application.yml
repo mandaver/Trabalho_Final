@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: payroll-api # Define o nome da aplicação como "payroll-api"
+server:
+  port: ${PORT:8100} # Define a porta do servidor
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URL:http://localhost:8761/eureka}
