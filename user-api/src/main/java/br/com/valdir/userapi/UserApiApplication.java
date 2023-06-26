@@ -1,7 +1,7 @@
-package br.com.valdir.userapi;
+package br.com.victor.userapi;
 
-import br.com.valdir.userapi.domain.User;
-import br.com.valdir.userapi.repositories.UserRepository;
+import br.com.victor.userapi.domain.User;
+import br.com.victor.userapi.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -25,7 +25,7 @@ public class UserApiApplication implements CommandLineRunner {
     public void run(String... args) throws Exception { // Ao executar a aplicação, é chamado o método run
         // Aqui, estamos inserindo um usuário inicial no banco de dados
         userRepository.saveAll(List.of(
-                new User(null, "Valdir Cezar", "valdir@mail.com", "123", 30.0)
+                new User(null, "Victor Roberto", "victor@mail.com", "123", 30.0)
         ));
     }
 }
