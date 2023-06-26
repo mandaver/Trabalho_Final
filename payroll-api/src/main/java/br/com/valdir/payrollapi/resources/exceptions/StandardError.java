@@ -1,4 +1,4 @@
-package br.com.valdir.payrollapi.resources.exceptions;
+package br.com.victor.payrollapi.resources.exceptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
