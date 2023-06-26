@@ -3,20 +3,20 @@ version: '3.4'
 services:
 
   eureka-server:
-    image: valdircezar/eureka-server:1.0.0
+    image: kingvrr/eureka-server:1.0.0
     ports:
       - "8761:8761"
     expose:
       - "8761"
     networks:
-      - hr-system
+      - rh-system
 
     # Define um serviço para o servidor Eureka, que será executado na porta 8761.
     # Ele é exposto para que possa ser acessado de fora do contêiner.
     # É conectado à rede "hr-system" para que outros serviços possam se comunicar com ele.
 
   api-gateway:
-    image: valdircezar/api-gateway:1.0.0
+    image: kingvrr/api-gateway:1.0.0
     ports:
       - "8765:8765"
     expose:
@@ -27,7 +27,7 @@ services:
       - PORT=8765
       - EUREKA_URL=http://eureka-server:8761/eureka
     networks:
-      - hr-system
+      - rh-system
       
     # Define um serviço para o gateway de API, que será executado na porta 8765.
     # Ele é exposto para que também possa ser acessado de fora do contêiner.
@@ -36,7 +36,7 @@ services:
     # É conectado à rede "hr-system" para que possa se comunicar com outros serviços.
 
   user-api:
-    image: valdircezar/user-api:1.0.0
+    image: kingvrr/user-api:1.0.0
     ports:
       - "8000:8000"
     depends_on:
@@ -46,14 +46,14 @@ services:
       - PORT=8001
       - EUREKA_URL=http://eureka-server:8761/eureka
     networks:
-      - hr-system
+      - rh-system
 
     # Define um serviço para a API de usuário, que será executado na porta 8000.
     # Depende dos serviços "eureka-server" e "api-gateway" para se registrar no servidor Eureka e se comunicar com o gateway de API.
     # As variáveis de ambiente "PORT" e "EUREKA_URL" são definidas para configurar o serviço corretamente.
 
   payroll-api:
-    image: valdircezar/payroll-api:1.0.0
+    image: kingvrr/payroll-api:1.0.0
     ports:
       - "8100:8100"
     depends_on:
@@ -64,7 +64,7 @@ services:
       - PORT=8100
       - EUREKA_URL=http://eureka-server:8761/eureka
     networks:
-      - hr-system
+      - rh-system
 
     # Define um serviço para a API de folha de pagamento, que será executado na porta 8100.
     # Depende dos serviços "eureka-server", "api-gateway" e "user-api" para se registrar no servidor Eureka e se comunicar com o gateway de API e a API de usuário.
@@ -72,8 +72,8 @@ services:
     # É conectado à rede "hr-system" para que possa se comunicar com outros serviços.
 
 networks:
-  hr-system:
+  rh-system:
     driver: bridge
 
-  # Define uma rede chamada "hr-system" com o driver de bridge.
+  # Define uma rede chamada "rh-system" com o driver de bridge.
   # Os serviços definidos acima serão conectados a essa rede para se comunicarem entre si.
