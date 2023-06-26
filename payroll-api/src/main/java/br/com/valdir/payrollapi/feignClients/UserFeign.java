@@ -1,6 +1,6 @@
-package br.com.valdir.payrollapi.feignClients;
+package br.com.victor.payrollapi.feignClients;
 
-import br.com.valdir.payrollapi.domain.User;
+import br.com.victor.payrollapi.domain.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
