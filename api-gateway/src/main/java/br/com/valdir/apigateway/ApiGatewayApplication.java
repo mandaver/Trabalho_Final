@@ -1,4 +1,4 @@
-package br.com.valdir.apigateway;
+package br.com.victor.apigateway;
 
 //  Importações das classes necessárias do Spring Boot e do Netflix Eureka para serem utilizadas neste arquivo.
 import org.springframework.boot.SpringApplication;
