@@ -11,14 +11,21 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 De que coisas você precisa 
 
 ```
-Postman - para fazer requisições HTTP
+Postman para fazer requisições HTTP
 Intelli J ou outro Editor de códigos 
-Docker Hub
 Pacote Maven
 Pacote Spring
-
 ```
 
+###  Doker PULL
+
+```
+docker pull kingvrr/api-gateway:1.0.0
+docker pull kingvrr/eureka-server:1.0.0
+docker pull kingvrr/user-api:1.0.0
+docker pull kingvrr/payroll-api:1.0.0
+
+```
 
 ## 🛠️ Construído com
 
