@@ -1,4 +1,4 @@
-package br.com.valdir.payrollapi.domain;
+package br.com.victor.payrollapi.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
