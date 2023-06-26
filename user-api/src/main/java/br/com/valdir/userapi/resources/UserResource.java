@@ -1,6 +1,6 @@
-package br.com.valdir.userapi.resources;
+package br.com.victor.userapi.resources;
 // Declaração da interface UserResource, que representa os recursos relacionados aos usuários na API
-import br.com.valdir.userapi.domain.User;
+import br.com.victor.userapi.domain.User;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
