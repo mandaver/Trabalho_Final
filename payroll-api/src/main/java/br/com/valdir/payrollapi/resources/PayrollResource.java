@@ -1,7 +1,7 @@
-package br.com.valdir.payrollapi.resources;
+package br.com.victor.payrollapi.resources;
 
-import br.com.valdir.payrollapi.domain.Payroll;
-import br.com.valdir.payrollapi.services.PayrollService;
+import br.com.victor.payrollapi.domain.Payroll;
+import br.com.victor.payrollapi.services.PayrollService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
