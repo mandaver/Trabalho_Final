@@ -1,4 +1,4 @@
-package br.com.valdir.payrollapi.services.exceptions;
+package br.com.victor.payrollapi.services.exceptions;
 
 public class ObjectNotFoundException extends RuntimeException{
 
