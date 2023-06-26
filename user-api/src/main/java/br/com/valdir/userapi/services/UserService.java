@@ -1,6 +1,6 @@
-package br.com.valdir.userapi.services;
+package br.com.victor.userapi.services;
 
-import br.com.valdir.userapi.domain.User;
+import br.com.victor.userapi.domain.User;
 
 import java.util.List;
 
