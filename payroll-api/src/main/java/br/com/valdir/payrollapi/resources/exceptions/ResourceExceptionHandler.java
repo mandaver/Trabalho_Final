@@ -1,6 +1,6 @@
-package br.com.valdir.payrollapi.resources.exceptions;
+package br.com.victor.payrollapi.resources.exceptions;
 
-import br.com.valdir.payrollapi.services.exceptions.ObjectNotFoundException;
+import br.com.victor.payrollapi.services.exceptions.ObjectNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
