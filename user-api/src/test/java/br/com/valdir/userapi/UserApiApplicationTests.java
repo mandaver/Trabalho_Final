@@ -1,4 +1,4 @@
-package br.com.valdir.userapi;
+package br.com.victor.userapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
