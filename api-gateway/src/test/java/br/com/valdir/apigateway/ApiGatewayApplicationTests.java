@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class ApiGatewayApplicationTests {
 
     @Test
-    void contextLoads() { // Verifica se o contexto da aplicação é carregado corretamente
+    void contextLoads() { // Verifica se o contexto da aplicação é carregado corretamente.
     }
 
 }
