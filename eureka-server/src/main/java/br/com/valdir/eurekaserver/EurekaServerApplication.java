@@ -1,4 +1,4 @@
-package br.com.valdir.eurekaserver;
+package br.com.victor.eurekaserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
