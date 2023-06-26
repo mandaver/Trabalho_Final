@@ -1,4 +1,4 @@
-package br.com.valdir.userapi.domain;
+package br.com.victor.userapi.domain;
 
 import lombok.*;
 
