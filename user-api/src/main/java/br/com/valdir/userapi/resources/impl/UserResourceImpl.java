@@ -1,8 +1,8 @@
-package br.com.valdir.userapi.resources.impl;
+package br.com.victor.userapi.resources.impl;
 
-import br.com.valdir.userapi.domain.User;
-import br.com.valdir.userapi.resources.UserResource;
-import br.com.valdir.userapi.services.UserService;
+import br.com.victor.userapi.domain.User;
+import br.com.victor.userapi.resources.UserResource;
+import br.com.victor.userapi.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
