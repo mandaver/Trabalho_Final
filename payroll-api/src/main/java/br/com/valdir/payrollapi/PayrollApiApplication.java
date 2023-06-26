@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication // Indica que a classe é a classe principal da aplicação Spring Boot
 @EnableFeignClients // Habilita o uso de clientes Feign para integração com as outras APIs
-@EnableEurekaClient // Habilita o cliente Eureka para registro no servidor Eureka
+@EnableEurekaClient // Habilita o cliente Eureka para registro no servidor Eureka.
 public class PayrollApiApplication {
 
     public static void main(String[] args) {
