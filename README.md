@@ -11,15 +11,16 @@ Essas instruções permitirão que você obtenha uma cópia do projeto em opera�
 De que coisas você precisa 
 
 ```
-Postman
-Intelli J
+Postman - para fazer requisições HTTP
+Intelli J ou outro Editor de códigos 
 Docker Hub
+Pacote Maven
+Pacote Spring
+
 ```
 
 
 ## 🛠️ Construído com
-
-Mencione as ferramentas que você usou para criar seu projeto
 
 * [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) - Versão utilizada
 
