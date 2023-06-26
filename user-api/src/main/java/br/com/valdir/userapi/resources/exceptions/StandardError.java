@@ -1,4 +1,4 @@
-package br.com.valdir.userapi.resources.exceptions;
+package br.com.victor.userapi.resources.exceptions;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
