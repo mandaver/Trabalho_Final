@@ -1,7 +1,7 @@
-package br.com.valdir.userapi.resources.exceptions;
+package br.com.victor.userapi.resources.exceptions;
 
 // Importação da classe de exceção específica
-import br.com.valdir.userapi.services.exceptions.ObjectNotFoundException;
+import br.com.victor.userapi.services.exceptions.ObjectNotFoundException;
 
 // Importação das classes do Spring Framework para tratamento de exceções HTTP
 import org.springframework.http.HttpStatus;
